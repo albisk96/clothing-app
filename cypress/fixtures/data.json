@@ -1,0 +1,126 @@
+[
+  {
+    "category": "men",
+    "imgUrl": "https://i.ibb.co/R70vBrQ/men.png",
+    "subcategory": [
+      {
+        "name": "jackets",
+        "items": [
+          {
+            "title": "Bomber jacket in navy",
+            "price": 55.99
+          },
+          {
+            "title": "Track jacket in black",
+            "price": 69.95
+          },
+          {
+            "title": "Cyclane jacket in blue/red",
+            "price": 80.99
+          }
+        ]
+      },
+      {
+        "name": "jeans",
+        "items": [
+          {
+            "title": "Skinny jeans in dark wash blue with tint",
+            "price": 31.99
+          },
+          {
+            "title": "Tapered jeans in light wash blue",
+            "price": 34.99
+          }
+        ]
+      },
+      {
+        "name": "joggers",
+        "items": [
+          {
+            "title": "Skinny jogger in grey",
+            "price": 65.96
+          },
+          {
+            "title": "Oversized co-ord washed joggers in blue",
+            "price": 27.99
+          },
+          {
+            "title": "Trousers in grey",
+            "price": 34.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "women",
+    "imgUrl": "https://i.ibb.co/GCCdy8t/womens.png",
+    "subcategory": [
+      {
+        "name": "dresses",
+        "items": [
+          {
+            "title": "Floral square neck mini dress in white",
+            "price": 38.99
+          },
+          {
+            "title": "Floral embellished maxi dress with cut out back",
+            "price": 274.99
+          }
+        ]
+      },
+      {
+        "name": "hoodies",
+        "items": [
+          {
+            "title": "Quarter zip pullover in multi",
+            "price": 34.55
+          },
+          {
+            "title": "Cropped hoodie in purple",
+            "price": 65.99
+          }
+        ]
+      },
+      {
+        "name": "jeans",
+        "items": [
+          {
+            "title": "Mom jeans in lime",
+            "price": 112.99
+          },
+          {
+            "title": "Fit Jeans in black",
+            "price": 65.05
+          }
+        ]
+      },
+      {
+        "name": "skirts",
+        "items": [
+          {
+            "title": "Patchwork skirt in white",
+            "price": 25.99
+          },
+          {
+            "title": "90's split co-ord mini skirt in blue",
+            "price": 12.99
+          }
+        ]
+      },
+      {
+        "name": "cardigans",
+        "items": [
+          {
+            "title": "V neck cardigan in ecru",
+            "price": 49.99
+          },
+          {
+            "title": "Ribbed cardigan in camel",
+            "price": 27.99
+          }
+        ]
+      }
+    ]
+  }
+]

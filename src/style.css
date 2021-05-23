@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-zoom {
+  @apply relative flex cursor-pointer p-6 items-center sm:m-3 justify-center overflow-hidden shadow-xl sm:w-1/2 w-full h-96;
+}
+.card-zoom-image {
+  @apply absolute w-full h-full transition-all duration-2000 ease-in-out transform bg-center bg-cover;
+}
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-150;
+}
+
+.card-content {
+  @apply leading-relaxed w-24 px-3 h-24 flex flex-col items-center justify-center border border-black bg-white opacity-70 absolute;
+}
+
+.my-grid {
+  @apply grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
+}
+
+.full-width {
+  @apply w-screen relative left-1/2 ml-MinusHalfScreen;
+}
+
+.my-button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+}
+
+.card-item {
+  @apply col-span-1 flex flex-col text-center bg-white rounded-lg shadow-lg  overflow-hidden;
+}
+
+.title {
+  @apply font-sans text-3xl font-medium text-center;
+}
+
+.nav-item-md {
+  @apply hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium capitalize;
+}
+
+.nav-item-sm {
+  @apply hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium capitalize;
+}
+
+.my-input {
+  @apply appearance-none bg-transparent focus:border-blue-400 w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none;
+}
